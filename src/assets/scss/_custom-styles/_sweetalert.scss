@@ -1,0 +1,25 @@
+.green-toaster {
+  // background-color: rgba(113, 221, 55, 0.85) !important;
+  box-shadow: none !important;
+  color: white;             /* White text color */
+  border-radius: 4px;       /* Rounded corners */
+  font-size: inherit;
+  width: 20em !important;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+
+/* Style for the close button */
+.custom-confirm-button {
+  box-shadow: none !important;
+}
+
+.custom-close-button {
+  color: white;
+  font-size: 1.90em !important;
+}
+
+.custom-close-button:hover {
+  color: white;
+}

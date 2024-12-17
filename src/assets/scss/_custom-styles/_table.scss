@@ -1,0 +1,65 @@
+#table table thead {
+    background-color: $lotion-white !important;
+}
+
+#table table thead .form-check input {
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+#table .page-items {
+    width: 100%;
+}
+
+#table .search {
+    width: 100%;
+}
+
+#table .avatar-wrapper .avatar {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+.table-heart-icon {
+    font-size: 1.4rem;
+}
+
+.table-responsive {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: thin !important; /* Adjust scrollbar thickness */
+    scrollbar-color: #eee !important; /* Customize scrollbar colors */
+}
+
+.table-responsive::-webkit-scrollbar {
+   width: 5px;
+   height: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: #eee; /* Customize scrollbar thumb color */
+    border-radius: 5px; /* Add rounded corners to scrollbar thumb */
+}
+
+// Medium Screen
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #table .page-items {
+        width: 100%;
+    }
+    
+    #table .search {
+        width: 100%;
+    }
+}
+
+// Small Screen
+@media (min-width: 320px) and (max-width: 767.98px) {
+    #table .page-items {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #table .search {
+        width: 100%;
+    }
+}

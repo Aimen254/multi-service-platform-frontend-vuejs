@@ -1,0 +1,44 @@
+// navbar styling
+
+.layout-navbar-fixed .layout-page:before {
+  content: none !important;
+}
+
+.layout-navbar {
+    max-width: 100% !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    margin-top: 0 !important;
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+    z-index: 100 !important;
+  }
+
+  .newspaper-logo {
+    width: 9rem;
+  }
+  
+.navbar .mx-auto {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  height: 50px !important
+}
+
+.navbar .input-group {
+  border-radius: 6px 0px 0px 6px !important;
+  height: 50px;
+
+}
+
+.navbar .form-select {
+  border-radius: 0px 6px 6px 0px;
+  background-color: #fafafa;
+}
+
+.navbar .form-control {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.navbar .bx-search {
+  margin-top: 2px;
+}

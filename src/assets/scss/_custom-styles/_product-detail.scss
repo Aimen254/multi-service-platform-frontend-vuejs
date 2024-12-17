@@ -1,0 +1,15 @@
+.product-detail-heading {
+    margin-top: 2rem;
+}
+
+.form-check-success input {
+    border-color:  rgb(var(--v-theme-success)) !important;
+}
+
+.form-check-danger input {
+    border-color:  rgb(var(--bs-danger-rgb)) !important;
+}
+
+.form-check-warning input {
+    border-color:  rgb(var(--v-theme-warning)) !important;
+}

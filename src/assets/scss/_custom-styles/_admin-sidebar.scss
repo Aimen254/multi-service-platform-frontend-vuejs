@@ -1,0 +1,41 @@
+#admin-sidebar .menu-item .sub-menu {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+#admin-sidebar .menu-item .open {
+    display: block;
+    transition: all 0.3s ease;
+}
+
+#admin-sidebar .menu-item .sub-menu .menu-link {
+    color: $slate-gray !important;
+}
+
+#admin-sidebar .menu-link {
+    color: $slate-gray;
+}
+
+#admin-sidebar .menu-item .rotate {
+    rotate: 90deg;
+    transition: all 0.3s ease;
+}
+
+#admin-sidebar .menu-item .active-chevron {
+    color: $primary;
+}
+
+#admin-sidebar .menu-item .sub-menu .active {
+    color: $primary !important;
+    background-color: rgba($primary, 0.16) !important;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0 0.5rem 0rem;
+}
+
+#admin-sidebar .menu-item .add {
+    margin-left: -1.625rem;
+    color: $primary !important;
+}
+#admin-sidebar .active-link {
+    color: $primary;
+}

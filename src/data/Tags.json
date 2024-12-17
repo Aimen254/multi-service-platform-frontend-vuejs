@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "name": "News"
+    },
+    {
+      "id": 2,
+      "name": "Sports"
+    },
+    {
+      "id": 3,
+      "name": "Business"
+    },
+    {
+      "id": 4,
+      "name": "Goverment"
+    },
+  
+    {
+      "id": 5,
+      "name": "Health"
+    },
+  
+    {
+      "id": 6,
+      "name": "Communaties"
+    },
+  
+    {
+      "id": 7,
+      "name": "Events"
+    },
+  
+    {
+      "id": 8,
+      "name": "Education"
+    },
+  
+    {
+      "id": 9,
+      "name": "Entertainment"
+    },
+    {
+      "id": 10,
+      "name": "life"
+    },
+    {
+      "id": 11,
+      "name": "Opinion"
+    },
+    {
+      "id": 12,
+      "name": "Opinion1"
+    },
+    {
+      "id": 13,
+      "name": "life"
+    },
+    {
+      "id": 14,
+      "name": "Opinion"
+    },
+    {
+      "id": 15,
+      "name": "Opinion1"
+    },
+    {
+      "id": 16,
+      "name": "level1"
+    },
+    {
+      "id": 17,
+      "name": "level2"
+    },
+    {
+      "id": 18,
+      "name": "levels3"
+    }
+  
+  
+  ]

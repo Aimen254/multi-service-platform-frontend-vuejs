@@ -1,0 +1,115 @@
+// invalid feed back clor
+.invalid-feedback {
+  color: red !important;
+}
+
+// danger border
+.form-control.is-invalid {
+  border-color: red !important;
+}
+.required::after {
+  content: " *";
+  color: $primary;
+}
+
+// width calsses
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.text-inherit {
+  color: $slate-gray !important;
+}
+
+.heart-color {
+  color: $primary !important;
+}
+
+.padding-right-1-2-5 {
+  padding-right: 1.25rem !important;
+}
+
+.truncate-text-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.truncate-text-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+
+.truncate-text-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+.truncate-text-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+}
+
+.fs-9 {
+  font-size: 0.75rem !important;
+}
+
+.truncate-text-5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+}
+
+.truncate-text-6 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+.swal2-container {
+  z-index: 1100 !important;
+}
+
+.cursor-text {
+  cursor: text !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}

@@ -1,0 +1,43 @@
+.slider-container {
+  overflow: hidden;
+  flex: 8;
+}
+
+.activeTab {
+  border-color: $primary !important;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+// .mx-auto {
+//   margin-left: 1px !important;
+// }
+
+.tags-group {
+  height: 39px !important;
+  gap: 60px !important;
+}
+
+.slider-content .btn-primary {
+  color: $granite-gray;
+  border: 1px solid $metal-gray;
+  box-shadow: none;
+  transition-property: none;
+  background: linear-gradient(0deg, $white, $white) !important;
+  border-radius: 6px 6px 6px 6px !important;
+  margin-right: 11px;
+}
+
+.slider-content .btn-primary:hover {
+  color: $granite-gray !important;
+  background-color: transparent !important;
+  border-color: $granite-gray !important;
+  transform: translateY(0px) !important;
+}
+
+
+
+

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#loading-bg {
+    position: absolute;
+    display: block;
+    background: var(--initial-loader-bg, #fff);
+    block-size: 100%;
+    inline-size: 100%;
+}
+
+.loading-logo {
+    position: absolute;
+    inset-block-start: 40%;
+    inset-inline-start: calc(50% - 10%);
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 1; /* Logo starts fully transparent (visible) */
+    }
+    50% {
+      opacity: 0; /* Fades out to fully visible at 50% of the animation */
+    }
+    100% {
+      opacity: 1; /* Fades in to fully transparent again at the end of the animation */
+    }
+}
+
+#splash-screen-logo {
+    /* Apply the fade-in and fade-out animation with a duration of 4 seconds, set to infinite to keep looping, and ease-in-out for a smooth transition */
+    animation: fadeInOut 4s infinite ease-in-out;
+
+}
+
+/*
+* Media Queries
+*/
+@media screen and (max-width: 768px) {
+    .loading-logo {
+        inset-inline-start: calc(50% - 17%);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #splash-screen-logo {
+        width: 70%;
+    }
+    .loading-logo {
+        inset-inline-start: calc(50% - 20%);
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #splash-screen-logo {
+        width: 70%;
+    }
+    .loading-logo {
+        inset-inline-start: calc(50% - 25%);
+    }
+}

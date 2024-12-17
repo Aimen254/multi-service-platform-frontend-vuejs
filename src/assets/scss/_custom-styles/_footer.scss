@@ -1,0 +1,22 @@
+.footer {
+    z-index: 1000;
+}
+.footer .logo .img {
+    width: 11.675rem;
+}
+
+.footer .info-list {
+    padding-left: 13rem;
+}
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .footer .info-list {
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer .info-list {
+        padding-left: 4.5rem;
+    }
+}
